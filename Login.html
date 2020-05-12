@@ -7,7 +7,18 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div id="particle-js"></div>
+  <div id="particle-js">
+    <div class="form-container">
+      <button class="btn-1 active"type="button">Login</button>
+      <button class="btn-1"type="button">Register</button>
+      <form id="login">
+        <input type="text" name="email" id="email" placeholder="Email Id">
+        <input type="password" name="password" id="pass" placeholder="Password">
+        <input type="checkbox" name="check" id="check">Remember Me
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
   <script src="js/app.js"></script>
 </body>
