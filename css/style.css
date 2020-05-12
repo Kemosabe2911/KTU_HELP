@@ -10,3 +10,10 @@ body{
     height: 900px;
     background: #000000;
 }
+.form-container{
+    background: #ffffff;
+}
+.login-class{
+    display: flex;
+    flex-direction: column;
+}
